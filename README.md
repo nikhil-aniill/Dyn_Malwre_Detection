@@ -13,6 +13,7 @@ The main theory behind choosing this approach is that the same family of malware
    pip install -r requirements.txt
    docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3(according to name in docker-compose.yml)
 ```
+   You can check if the Docker is running by typing localhost:5000 into the URL bar.
 2. ### Installing the [ChatMD](https://github.com/nikhil-aniill/chat_server) 
 ```
    git clone https://github.com/nikhil-aniill/chat_server.git
