@@ -1,5 +1,5 @@
 # Dynamic Malware Detection ML Model 
-This project is a intrusion detection model which comprise of two separate components, first being the cuckoo sandbox and second the malware visualization component on the files sent through a chat server. The machine learning model will successfully tell which malware family does a particular file belong to. Both the benign and malicious files are converted to an 8 bit vector to generate their respective greyscale images. 
+This project is an intrusion detection model which comprise of two separate components, first being the cuckoo sandbox and second the malware visualization component on the files sent through a chat server. The machine learning model will successfully tell which malware family does a particular file belong to. Both the benign and malicious files are converted to an 8 bit vector to generate their respective greyscale images. 
 
 The main theory behind choosing this approach is that the same family of malware use same binary pattern. Processing text is comparatively slower than processing images. Hence, R-CNN is used. It not only is faster in this scenario but it also overcomes the issues of vanishing gradient which are encountered while using traditional CNN model. 
 
