@@ -20,7 +20,8 @@ The main theory behind choosing this approach is that the same family of malware
    git clone https://github.com/nikhil-aniill/chat_server.git
    cd chat_server/code
 ```
-     Follow the README file on [here](https://github.com/nikhil-aniill/chat_server) to run ChatMD
+   Follow the README file on [here](https://github.com/nikhil-aniill/chat_server) to run ChatMD
+   
 3. ### Installing Cuckoo Sandbox 
    Refer to the link step by step to install [Cuckoo](https://medium.com/@warunikaamali/cuckoo-sandbox-installation-guide-d7a09bd4ee1f). 
    The analyses folder which consists of the reports of the sandboxed files should be updated in client.py of ChatMD.
